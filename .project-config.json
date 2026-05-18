@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663541068162/cHkk4ATiGrykigjZNhn5uD",
+    "access_key_id": "ASIAZV3A2ECZJO7RKDAG",
+    "secret_access_key": "44wTJv8pfTT/On5spKGVhICUmbBCeMDDhe51l9G4",
+    "session_token": "IQoJb3JpZ2luX2VjEPr//////////wEaCXVzLWVhc3QtMSJHMEUCICgDxO3meUqsZvZgDgSI/HPS8/MYYhN9yYsripH5rPvWAiEAvUdt93MEK0dzeDWIykIDowwGDYC8VvrTmaGhGccwWsIq/wMIwv//////////ARAEGgw2NjUzODYwOTg4NjYiDGJgUE3uSvu5lWDjhyrTAys7psunV833GTnXRRZALlmjURspUdi1K+8DDqGNxHuertTn7PvWOL4bMW7b28ndpHC5fVLJuf5r2eWIGys7AOcNhRtToDDvE7+ONQoiNTizA9c4b9HxhoAjpMOS7gK9aZXvfv0SULUBT+BuYRKphXkLYIbq092IHkvUSXMcjpydUUl9JNMn4U6POadzNFra4eN/u3Z2jKsBaeQWBZTHdWXxfWpspHPpOuGWt/1oa6T5pWvC39cx07W62o5CFifP4Z0FALEhrCNS6HpcAhk7LVX8wnxjfaZeN8GBEZRif/4xiYrzffiPUdmy1PJOvdsmrHJlhcMEziC6UiZxD07dZCKRdIbZFOWC81ItNqCc2v/t8EwmJBQVXok3/o+e7Q7peMyOuwOyj8m8aRNL/d8xrUIoR7U+4TXHCHXf9hPb0yOU7gpbV4r3tHYkxr2omg6SCrEvRC5G3dSmZsDHiim+HeEw1HWKTpSdQa/y9gw5DiGOV7+HkWR3jN5PieI7ix2n9/+uPOx3ocHVigJEDZHyMFxIEzF9U0GcrOEKL+2EVpoijZ4iK5OTPHHjHyFTLRsk+yc/ucwTHc2PNAjssJr8OEBNgrmKbuCItAV5++GOmQTmVpiKMJuTrdAGOp0Bwpk3dOB7C7p1O3amL8dJNl0BV5hr9ASL8yURvICdCchx9dcCS21Xx9lyeaDGC60eJrZiWsuiFpL2cIzEMkssNAcPl9oqxTx9wv5yDjv90Ai9RNTx/ZP2+BhIj/MamsEeFi5JDJV0tlb+SB6ecXJZNhPySAYQ2sJzyEdLhnP5UEOo+6LuUXz7+BhXjW595d9lno/QAPOyjNLTdAIe5Q==",
+    "expiration": "2026-05-19T05:17:15.000Z"
+  },
+  "name": "lms-training-dashboard-bds",
+  "path": "/home/ubuntu/lms-training-dashboard-bds",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "D9Shx7gTEvCxdY56BSkPpm",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "P7JZrz4NnaGtRhwf3CSDev",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "almontchesseyl",
+    "OWNER_OPEN_ID": "4MkqoxKdBArvqr8pMEU9yi",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "622579f0-757f-482c-8fbc-4b6817ce73ab",
+    "VITE_APP_ID": "cHkk4ATiGrykigjZNhn5uD",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Training LMS Dashboard BĐS 2026",
+    "VITE_FRONTEND_FORGE_API_KEY": "4oPTPsx2rEtNDQBgv6qvP3",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
