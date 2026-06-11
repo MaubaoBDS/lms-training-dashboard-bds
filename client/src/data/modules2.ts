@@ -37,7 +37,7 @@ export const modules2: Module[] = [
 
 > "Dạ em gửi ngay ạ. Để em gửi đúng thông tin anh/chị cần, em hỏi nhanh: anh/chị đang quan tâm loại hình nào — căn hộ hay nhà phố? Và ngân sách anh/chị đang cân nhắc khoảng bao nhiêu ạ?"
 
-## Kịch bản xin giới thiệu (Referral)
+## Kịch bản xin giới thiệu (Giới thiệu khách hàng)
 
 > "Anh/chị ơi, em rất vui vì mình đã hỗ trợ anh/chị tốt trong quá trình vừa rồi. Nếu anh/chị có ai quen đang tìm hiểu BĐS, anh/chị giới thiệu giúp em nhé. Em cam kết sẽ tư vấn tận tâm như đã phục vụ anh/chị."`,
     quiz: [
@@ -119,13 +119,13 @@ export const modules2: Module[] = [
   },
   {
     id: 11,
-    title: "CRM & Quản trị khách hàng",
-    shortDesc: "Pipeline, phân loại, follow-up",
+    title: "Hệ thống quản trị quan hệ khách hàng (CRM) & Quản trị khách hàng",
+    shortDesc: "Đường ống cơ hội bán hàng, phân loại, theo dõi lại khách hàng",
     icon: "Database",
     accentColor: "#7c3aed",
-    content: `# CRM & Quản trị khách hàng
+    content: `# Hệ thống quản trị quan hệ khách hàng (CRM) & Quản trị khách hàng
 
-## Pipeline 7 giai đoạn
+## Đường ống cơ hội bán hàng 7 giai đoạn
 
 | Giai đoạn | Mô tả | Hành động tiếp theo |
 |---|---|---|
@@ -133,20 +133,20 @@ export const modules2: Module[] = [
 | 2. Đã liên hệ | Đã nói chuyện, chưa rõ nhu cầu | Đặt câu hỏi khám phá |
 | 3. Đã khám phá nhu cầu | Biết nhu cầu, ngân sách, timeline | Đề xuất sản phẩm phù hợp |
 | 4. Đã tư vấn | Đã trình bày giải pháp | Xử lý do dự, gửi tài liệu bổ sung |
-| 5. Đang cân nhắc | Khách đang so sánh, bàn bạc | Follow-up giá trị, tạo urgency nhẹ |
+| 5. Đang cân nhắc | Khách đang so sánh, bàn bạc | Theo dõi lại khách hàng giá trị, tạo urgency nhẹ |
 | 6. Đã chốt | Ký hợp đồng, đặt cọc | Hỗ trợ thủ tục, chúc mừng |
-| 7. Chăm sóc sau bán | Đã hoàn tất giao dịch | Hỏi thăm, xin referral, upsell |
+| 7. Chăm sóc sau bán | Đã hoàn tất giao dịch | Hỏi thăm, xin giới thiệu khách hàng, upsell |
 
 ## Cách nhập dữ liệu chuẩn
 
 **Thông tin bắt buộc:**
 - Họ tên đầy đủ
 - Số điện thoại (chính + phụ nếu có)
-- Nguồn khách (data công ty/MXH/referral/sự kiện)
+- Nguồn khách (data công ty/MXH/giới thiệu khách hàng/sự kiện)
 - Nhu cầu sơ bộ (ở thực/đầu tư/tích sản)
 - Ngân sách dự kiến
 - Timeline mua
-- Bước tiếp theo + ngày follow-up
+- Bước tiếp theo + ngày theo dõi lại khách hàng
 
 **Ghi chú mỗi tương tác:**
 - Ngày giờ liên hệ
@@ -156,11 +156,11 @@ export const modules2: Module[] = [
 
 ## Phân loại khách hàng
 
-| Loại | Định nghĩa | Tần suất follow-up |
+| Loại | Định nghĩa | Tần suất theo dõi lại khách hàng |
 |---|---|---|
 | 🔥 Nóng | Mua trong 7 ngày, đã xem nhà, đang so sánh | Mỗi ngày hoặc cách ngày |
 | 🟡 Ấm | Mua trong 30 ngày, có nhu cầu rõ, đang tìm hiểu | 2-3 lần/tuần |
-| 🧊 Lạnh | Chưa rõ timeline, đang nurturing | 1 lần/tuần, gửi content giá trị |
+| 🧊 Lạnh | Chưa rõ timeline, đang nurturing | 1 lần/tuần, gửi nội dung giá trị |
 
 ## Quy tắc vàng CRM
 
@@ -168,35 +168,35 @@ export const modules2: Module[] = [
 
 ## Dashboard cá nhân: đọc hiểu số liệu
 
-- **Tổng khách trong pipeline**: Bao nhiêu khách đang chăm sóc?
+- **Tổng khách trong đường ống cơ hội bán hàng**: Bao nhiêu khách đang chăm sóc?
 - **Phân bổ theo giai đoạn**: Có bị nghẽn ở giai đoạn nào không?
 - **Tỷ lệ chuyển bước**: Từ liên hệ → khám phá → tư vấn → chốt
-- **Khách quá hạn follow-up**: Ai đang bị bỏ quên?
+- **Khách quá hạn theo dõi lại khách hàng**: Ai đang bị bỏ quên?
 - **Nguồn khách hiệu quả nhất**: Đầu tư thời gian vào đâu?`,
     quiz: [
-      { id: 1, question: "Pipeline CRM có bao nhiêu giai đoạn?", options: ["5 giai đoạn", "6 giai đoạn", "7 giai đoạn", "10 giai đoạn"], correctAnswer: 2 },
-      { id: 2, question: "Khách 'Nóng' được định nghĩa thế nào?", options: ["Khách mới vào pipeline", "Mua trong 7 ngày, đã xem nhà, đang so sánh", "Khách đã mua rồi", "Khách chưa có nhu cầu"], correctAnswer: 1 },
-      { id: 3, question: "Quy tắc vàng CRM là gì?", options: ["Nhập cuối ngày", "Nhập CRM trong vòng 2 giờ sau mỗi tương tác", "Nhập cuối tuần", "Chỉ nhập khi có deal"], correctAnswer: 1 },
-      { id: 4, question: "Tần suất follow-up khách 'Ấm' là bao nhiêu?", options: ["Mỗi ngày", "2-3 lần/tuần", "1 lần/tuần", "1 lần/tháng"], correctAnswer: 1 },
+      { id: 1, question: "Đường ống cơ hội bán hàng CRM có bao nhiêu giai đoạn?", options: ["5 giai đoạn", "6 giai đoạn", "7 giai đoạn", "10 giai đoạn"], correctAnswer: 2 },
+      { id: 2, question: "Khách 'Nóng' được định nghĩa thế nào?", options: ["Khách mới vào đường ống cơ hội bán hàng", "Mua trong 7 ngày, đã xem nhà, đang so sánh", "Khách đã mua rồi", "Khách chưa có nhu cầu"], correctAnswer: 1 },
+      { id: 3, question: "Quy tắc vàng hệ thống quản trị quan hệ khách hàng (CRM) là gì?", options: ["Nhập cuối ngày", "Nhập CRM trong vòng 2 giờ sau mỗi tương tác", "Nhập cuối tuần", "Chỉ nhập khi có giao dịch"], correctAnswer: 1 },
+      { id: 4, question: "Tần suất theo dõi lại khách hàng khách 'Ấm' là bao nhiêu?", options: ["Mỗi ngày", "2-3 lần/tuần", "1 lần/tuần", "1 lần/tháng"], correctAnswer: 1 },
       { id: 5, question: "Thông tin nào KHÔNG bắt buộc khi nhập CRM?", options: ["Họ tên", "Nguồn khách", "Sở thích cá nhân", "Nhu cầu sơ bộ"], correctAnswer: 2 },
     ]
   },
   {
     id: 12,
     title: "Công nghệ & AI hỗ trợ bán hàng",
-    shortDesc: "AI soạn tin, phân tích, tạo content",
+    shortDesc: "AI soạn tin, phân tích, tạo nội dung",
     icon: "Bot",
     accentColor: "#7c3aed",
     content: `# Công nghệ & AI hỗ trợ bán hàng
 
 ## Nguyên tắc cốt lõi
 
-> **AI là trợ lý, không phải thay thế — bạn vẫn cần sự chân thành và nhiệt huyết.**
+> **trí tuệ nhân tạo (AI) là trợ lý, không phải thay thế — bạn vẫn cần sự chân thành và nhiệt huyết.**
 
-## 1. AI soạn tin nhắn follow-up cá nhân hóa
+## 1. AI soạn tin nhắn theo dõi lại khách hàng cá nhân hóa
 
 **Prompt mẫu:**
-> "Hãy soạn tin nhắn Zalo follow-up cho khách hàng tên [X], đã tư vấn dự án [Y] hôm qua. Khách quan tâm đến [nhu cầu]. Giọng văn thân thiện, chuyên nghiệp, ngắn gọn dưới 100 chữ."
+> "Hãy soạn tin nhắn Zalo theo dõi lại khách hàng cho khách hàng tên [X], đã tư vấn dự án [Y] hôm qua. Khách quan tâm đến [nhu cầu]. Giọng văn thân thiện, chuyên nghiệp, ngắn gọn dưới 100 chữ."
 
 **Lưu ý:** Luôn đọc lại và chỉnh sửa cho phù hợp với phong cách cá nhân trước khi gửi.
 
@@ -223,42 +223,42 @@ export const modules2: Module[] = [
 
 | Công cụ | Chức năng |
 |---|---|
-| Lịch tự động | Đặt lịch follow-up, nhắc nhở không bỏ sót |
+| Lịch tự động | Đặt lịch theo dõi lại khách hàng, nhắc nhở không bỏ sót |
 | Email/Zalo automation | Gửi thông tin tự động theo lịch |
 | Báo cáo tự động | Tổng hợp KPI cuối ngày/tuần |
-| Content scheduler | Lên lịch đăng bài tự động |
+| Nội dung scheduler | Lên lịch đăng bài tự động |
 
 ## 6. Ứng dụng AI trong luyện tập
 
-- **Role-play với AI**: Luyện xử lý từ chối, pitch sản phẩm
+- **Luyện tập tình huống với AI**: Luyện xử lý từ chối, trình bày tư vấn ngắn sản phẩm
 - **Phản hồi kịch bản**: Cho AI đánh giá kịch bản của bạn
 - **Nghiên cứu thị trường**: Hỏi AI tổng hợp thông tin khu vực
 - **Soạn email/tin nhắn**: Tạo template, cá nhân hóa sau`,
     quiz: [
-      { id: 1, question: "Nguyên tắc cốt lõi khi dùng AI trong bán hàng là gì?", options: ["AI thay thế hoàn toàn con người", "AI là trợ lý, không phải thay thế — vẫn cần sự chân thành", "Chỉ dùng AI, không cần kỹ năng", "AI chỉ dùng cho marketing"], correctAnswer: 1 },
-      { id: 2, question: "Khi AI soạn tin nhắn follow-up, bước tiếp theo là gì?", options: ["Gửi ngay không cần xem", "Đọc lại và chỉnh sửa cho phù hợp phong cách cá nhân", "Xóa đi viết lại", "Gửi cho sếp duyệt"], correctAnswer: 1 },
+      { id: 1, question: "Nguyên tắc cốt lõi khi dùng AI trong bán hàng là gì?", options: ["AI thay thế hoàn toàn con người", "trí tuệ nhân tạo (AI) là trợ lý, không phải thay thế — vẫn cần sự chân thành", "Chỉ dùng AI, không cần kỹ năng", "AI chỉ dùng cho marketing"], correctAnswer: 1 },
+      { id: 2, question: "Khi AI soạn tin nhắn theo dõi lại khách hàng, bước tiếp theo là gì?", options: ["Gửi ngay không cần xem", "Đọc lại và chỉnh sửa cho phù hợp phong cách cá nhân", "Xóa đi viết lại", "Gửi cho sếp duyệt"], correctAnswer: 1 },
       { id: 3, question: "AI có thể hỗ trợ phân tích cuộc gọi về những gì?", options: ["Chỉ đếm số phút", "Tỷ lệ nói/nghe, câu hỏi đã đặt, cơ hội bỏ lỡ", "Chỉ ghi âm", "Chỉ chấm điểm"], correctAnswer: 1 },
       { id: 4, question: "Chatbot hỗ trợ bán hàng có thể làm gì?", options: ["Thay thế hoàn toàn sales", "Trả lời câu hỏi cơ bản, thu thập thông tin, chuyển khách nóng", "Chỉ gửi brochure", "Chỉ hoạt động giờ hành chính"], correctAnswer: 1 },
-      { id: 5, question: "Nguyên tắc 80/20 trong content là gì?", options: ["80% bán hàng, 20% giá trị", "80% giá trị, 20% bán hàng", "80% video, 20% bài viết", "80% AI, 20% tự viết"], correctAnswer: 1 },
+      { id: 5, question: "Nguyên tắc 80/20 trong nội dung là gì?", options: ["80% bán hàng, 20% giá trị", "80% giá trị, 20% bán hàng", "80% video, 20% bài viết", "80% AI, 20% tự viết"], correctAnswer: 1 },
     ]
   },
   {
     id: 13,
-    title: "Xây dựng thương hiệu cá nhân & Content",
-    shortDesc: "Profile, content, video cơ bản",
+    title: "Xây dựng thương hiệu cá nhân & Nội dung",
+    shortDesc: "Hồ sơ cá nhân, nội dung, video cơ bản",
     icon: "Megaphone",
     accentColor: "#059669",
-    content: `# Xây dựng thương hiệu cá nhân & Content
+    content: `# Xây dựng thương hiệu cá nhân & Nội dung
 
 ## Vì sao phải làm ngay
 
-Năm 2026, khách hàng Google tên bạn trước khi nghe tư vấn. **Profile trống = mất uy tín trước khi mở miệng.**
+Năm 2026, khách hàng Google tên bạn trước khi nghe tư vấn. **Hồ sơ cá nhân trống = mất uy tín trước khi mở miệng.**
 
 Thương hiệu cá nhân không phải là "làm màu" hay "sống ảo". Thương hiệu cá nhân là bằng chứng số cho thấy bạn đang làm nghề nghiêm túc, có kiến thức, có trách nhiệm và đáng tin cậy.
 
 > Nguyên tắc: Bạn không cần trở thành influencer. Bạn chỉ cần trở thành người mà khi khách hàng tìm kiếm thông tin BĐS ở khu vực của bạn, họ thấy bạn xuất hiện với nội dung có giá trị.
 
-## Xây profile chuyên nghiệp (Tuần 1–2)
+## Xây hồ sơ cá nhân chuyên nghiệp (Tuần 1–2)
 
 | Yếu tố | Tiêu chuẩn |
 |---|---|
@@ -277,9 +277,9 @@ Thương hiệu cá nhân không phải là "làm màu" hay "sống ảo". Thư�
 - Bio ngắn gọn + link liên hệ
 - 3–5 video đầu tiên: giới thiệu bản thân, review khu vực
 
-## 5 loại content cơ bản
+## 5 loại nội dung cơ bản
 
-| Loại content | Ví dụ | Tần suất |
+| Loại nội dung | Ví dụ | Tần suất |
 |---|---|---|
 | Kiến thức mua nhà | "5 điều cần kiểm tra trước khi đặt cọc" | 2–3 bài/tuần |
 | Review khu vực/dự án | Quay video thực tế, chụp ảnh tiến độ | 1–2 bài/tuần |
@@ -306,7 +306,7 @@ Thương hiệu cá nhân không phải là "làm màu" hay "sống ảo". Thư�
 4. Edit — CapCut (5–7 phút)
 5. Đăng + caption (3 phút)
 
-## Lịch content mẫu tuần đầu tiên
+## Lịch nội dung mẫu tuần đầu tiên
 
 | Thứ | Nền tảng | Loại | Nội dung |
 |---|---|---|---|
@@ -331,35 +331,35 @@ Thương hiệu cá nhân không phải là "làm màu" hay "sống ảo". Thư�
 Canva, CapCut, ChatGPT, Google Trends, Meta Business Suite`,
     quiz: [
       { id: 1, question: "Vì sao nhân sự mới 2026 phải xây thương hiệu cá nhân ngay?", options: ["Để nổi tiếng", "Vì khách hàng Google tên bạn trước khi nghe tư vấn", "Vì sếp yêu cầu", "Để có nhiều follower"], correctAnswer: 1 },
-      { id: 2, question: "Nguyên tắc 80/20 trong content là gì?", options: ["80% bán hàng, 20% giá trị", "80% giá trị, 20% bán hàng", "80% video, 20% bài viết", "80% Facebook, 20% Zalo"], correctAnswer: 1 },
+      { id: 2, question: "Nguyên tắc 80/20 trong nội dung là gì?", options: ["80% bán hàng, 20% giá trị", "80% giá trị, 20% bán hàng", "80% video, 20% bài viết", "80% Facebook, 20% Zalo"], correctAnswer: 1 },
       { id: 3, question: "Quy trình làm 1 video ngắn mất bao lâu?", options: ["5 phút", "15–20 phút", "1 giờ", "Nửa ngày"], correctAnswer: 1 },
-      { id: 4, question: "Profile cần hoàn thành trong tuần nào?", options: ["Tuần 1–2", "Tháng 2", "Tháng 3", "Khi nào rảnh"], correctAnswer: 0 },
+      { id: 4, question: "Hồ sơ cá nhân cần hoàn thành trong tuần nào?", options: ["Tuần 1–2", "Tháng 2", "Tháng 3", "Khi nào rảnh"], correctAnswer: 0 },
       { id: 5, question: "Sai lầm 'Đăng rồi bỏ' dẫn đến hậu quả gì?", options: ["Không ảnh hưởng", "Thuật toán giảm hiển thị, khách không thấy", "Tăng follower", "Tiết kiệm thời gian"], correctAnswer: 1 },
     ]
   },
   {
     id: 14,
-    title: "Role-play & Luyện tập",
+    title: "Luyện tập tình huống & Luyện tập",
     shortDesc: "Lịch luyện tập, tình huống, đánh giá",
     icon: "Swords",
     accentColor: "#d97706",
-    content: `# Role-play & Luyện tập
+    content: `# Luyện tập tình huống & Luyện tập
 
-## Lịch role-play
+## Lịch luyện tập tình huống
 
 **30 phút/ngày, 5 ngày/tuần** — Đây là hoạt động bắt buộc, không phải tùy chọn.
 
-## Các tình huống role-play theo tuần
+## Các tình huống luyện tập tình huống theo tuần
 
 | Tuần | Tình huống | Mục tiêu |
 |---|---|---|
 | Tuần 1–2 | Gọi điện lạnh (cold call) | Luyện mở đầu, xin phép thời gian, tạo rapport |
-| Tuần 3–4 | Tư vấn trực tiếp | Luyện khám phá nhu cầu, pitch sản phẩm |
+| Tuần 3–4 | Tư vấn trực tiếp | Luyện khám phá nhu cầu, trình bày tư vấn ngắn sản phẩm |
 | Tuần 5–6 | Xử lý từ chối | Luyện Feel-Felt-Found, giữ bình tĩnh |
 | Tuần 7–8 | Chốt sale | Luyện đề xuất bước tiếp theo, tạo urgency |
 | Tuần 9–12 | Tình huống tổng hợp | Kết hợp tất cả kỹ năng |
 
-## Quy trình role-play
+## Quy trình luyện tập tình huống
 
 1. **Nhận brief**: Mentor đưa tình huống cụ thể (loại khách, nhu cầu, từ chối)
 2. **Thực hiện**: Mentee đóng vai sales, mentor đóng vai khách (3-5 phút)
@@ -379,17 +379,17 @@ Canva, CapCut, ChatGPT, Google Trends, Meta Business Suite`,
 
 **Đạt yêu cầu: Trung bình ≥ 3.5/5**
 
-## Quay video role-play
+## Quay video luyện tập tình huống
 
 - Quay video để tự review và mentor đánh giá
 - So sánh video tuần 1 với tuần 4 để thấy tiến bộ
 - Lưu trữ làm tài liệu đào tạo cho người sau`,
     quiz: [
-      { id: 1, question: "Lịch role-play yêu cầu bao nhiêu thời gian mỗi ngày?", options: ["15 phút", "30 phút/ngày, 5 ngày/tuần", "1 giờ", "Tùy thích"], correctAnswer: 1 },
-      { id: 2, question: "Quy trình role-play gồm mấy bước?", options: ["3 bước", "5 bước: Nhận brief → Thực hiện → Feedback → Ghi nhận → Làm lại", "7 bước", "2 bước"], correctAnswer: 1 },
-      { id: 3, question: "Điểm đạt yêu cầu role-play là bao nhiêu?", options: ["2/5", "3/5", "Trung bình ≥ 3.5/5", "5/5"], correctAnswer: 2 },
+      { id: 1, question: "Lịch luyện tập tình huống yêu cầu bao nhiêu thời gian mỗi ngày?", options: ["15 phút", "30 phút/ngày, 5 ngày/tuần", "1 giờ", "Tùy thích"], correctAnswer: 1 },
+      { id: 2, question: "Quy trình luyện tập tình huống gồm mấy bước?", options: ["3 bước", "5 bước: Nhận brief → Thực hiện → Feedback → Ghi nhận → Làm lại", "7 bước", "2 bước"], correctAnswer: 1 },
+      { id: 3, question: "Điểm đạt yêu cầu luyện tập tình huống là bao nhiêu?", options: ["2/5", "3/5", "Trung bình ≥ 3.5/5", "5/5"], correctAnswer: 2 },
       { id: 4, question: "Tuần 5-6 luyện tình huống gì?", options: ["Gọi điện lạnh", "Tư vấn trực tiếp", "Xử lý từ chối", "Chốt sale"], correctAnswer: 2 },
-      { id: 5, question: "Vì sao cần quay video role-play?", options: ["Để đăng MXH", "Để tự review và so sánh tiến bộ", "Để nộp cho công ty", "Không cần thiết"], correctAnswer: 1 },
+      { id: 5, question: "Vì sao cần quay video luyện tập tình huống?", options: ["Để đăng MXH", "Để tự review và so sánh tiến bộ", "Để nộp cho công ty", "Không cần thiết"], correctAnswer: 1 },
     ]
   },
   {
@@ -406,10 +406,10 @@ Canva, CapCut, ChatGPT, Google Trends, Meta Business Suite`,
 |---|---|---|
 | Hội thoại chất lượng | 15–20/tuần | CRM log |
 | Lịch hẹn tư vấn | 3–5/tuần | Calendar + CRM |
-| Follow-up đúng hạn | >90% | CRM reminder |
+| Theo dõi lại khách hàng đúng hạn | >90% | CRM reminder |
 | CRM cập nhật | 100% tương tác | Kiểm tra cuối ngày |
-| Role-play hoàn thành | 5 buổi/tuần | Check-in mentor |
-| Content đăng | 5–7 bài/tuần | Tracking sheet |
+| Luyện tập tình huống hoàn thành | 5 buổi/tuần | Check-in mentor |
+| Nội dung đăng | 5–7 bài/tuần | Bảng theo dõi |
 | Bài học ghi nhận | 3 insight/tuần | Nhật ký học tập |
 
 ## Mẫu báo cáo ngày
@@ -425,7 +425,7 @@ Canva, CapCut, ChatGPT, Google Trends, Meta Business Suite`,
 1. **Tổng KPI tuần**:
    - Cuộc gọi: ___ / Mục tiêu: ___
    - Lịch hẹn: ___ / Mục tiêu: ___
-   - Content: ___ / Mục tiêu: ___
+   - Nội dung: ___ / Mục tiêu: ___
    - CRM cập nhật: ___%
 
 2. **So sánh với tuần trước**: Tăng/Giảm ở chỉ số nào?
@@ -445,15 +445,15 @@ Canva, CapCut, ChatGPT, Google Trends, Meta Business Suite`,
 ## Cách đọc hiểu số liệu
 
 - **Tỷ lệ kết nối thấp** (<40%): Kiểm tra khung giờ gọi, chất lượng data
-- **Tỷ lệ chuyển đổi thấp** (<10%): Xem lại kịch bản, luyện role-play thêm
-- **Follow-up trễ hạn**: Đặt nhắc nhở CRM, ưu tiên khách nóng
-- **Content ít tương tác**: Thay đổi chủ đề, thử format mới (video)`,
+- **Tỷ lệ chuyển đổi thấp** (<10%): Xem lại kịch bản, luyện luyện tập tình huống thêm
+- **Theo dõi lại khách hàng trễ hạn**: Đặt nhắc nhở CRM, ưu tiên khách nóng
+- **Nội dung ít tương tác**: Thay đổi chủ đề, thử format mới (video)`,
     quiz: [
       { id: 1, question: "Mục tiêu hội thoại chất lượng mỗi tuần là bao nhiêu?", options: ["5-10", "15-20", "25-30", "50+"], correctAnswer: 1 },
-      { id: 2, question: "Tỷ lệ follow-up đúng hạn mục tiêu là bao nhiêu?", options: [">50%", ">70%", ">90%", "100%"], correctAnswer: 2 },
+      { id: 2, question: "Tỷ lệ theo dõi lại khách hàng đúng hạn mục tiêu là bao nhiêu?", options: [">50%", ">70%", ">90%", "100%"], correctAnswer: 2 },
       { id: 3, question: "Báo cáo ngày cần có những mục nào?", options: ["Chỉ số cuộc gọi", "Số cuộc gọi, kết quả, lịch hẹn mới, bài học, kế hoạch ngày mai", "Chỉ doanh số", "Chỉ số khách mới"], correctAnswer: 1 },
       { id: 4, question: "Khi tỷ lệ kết nối thấp (<40%), nên kiểm tra gì?", options: ["Kịch bản bán hàng", "Khung giờ gọi và chất lượng data", "Giá sản phẩm", "Đội nhóm"], correctAnswer: 1 },
-      { id: 5, question: "Số bài content mục tiêu mỗi tuần là bao nhiêu?", options: ["1-2 bài", "3-4 bài", "5-7 bài", "10+ bài"], correctAnswer: 2 },
+      { id: 5, question: "Số bài nội dung mục tiêu mỗi tuần là bao nhiêu?", options: ["1-2 bài", "3-4 bài", "5-7 bài", "10+ bài"], correctAnswer: 2 },
     ]
   },
   {

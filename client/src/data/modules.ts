@@ -26,7 +26,7 @@ export const modules: Module[] = [
 
 ## Tinh thần chủ đạo
 
-> "Ước Mơ lớn là khối động cơ (nhiên liệu); KPI, CRM và AI là hệ thống vô lăng và bánh xe. Không có ước mơ, sales sẽ gãy cánh trước áp lực thị trường. Không có công nghệ, sales sẽ làm việc vô hướng. Phải kết hợp cả hai."
+> "Ước Mơ lớn là khối động cơ (nhiên liệu); KPI, CRM và trí tuệ nhân tạo (AI) là hệ thống vô lăng và bánh xe. Không có ước mơ, sales sẽ gãy cánh trước áp lực thị trường. Không có công nghệ, sales sẽ làm việc vô hướng. Phải kết hợp cả hai."
 
 ## Phạm vi áp dụng
 
@@ -42,7 +42,7 @@ Sổ tay tư duy, kỹ năng, quy trình và công cụ vận hành trong 30–9
 |---|---|---|
 | Ước Mơ | Tạo động cơ, lý do chịu khó, sức bền khi bị từ chối và khát vọng vượt khỏi vùng an nhàn | Dễ làm việc cầm chừng, nhanh nản, thiếu động lực vượt khó |
 | KPI | Chuyển khát vọng thành chỉ số hành động có thể theo dõi hằng ngày và hằng tuần | Làm việc cảm tính, không biết mình đang tiến hay lùi |
-| CRM | Lưu trữ khách hàng, kiểm soát pipeline, không bỏ sót follow-up và học từ dữ liệu | Mất khách, quên lịch, chăm sóc rời rạc, không nhìn thấy điểm nghẽn |
+| CRM | Lưu trữ khách hàng, kiểm soát đường ống cơ hội bán hàng, không bỏ sót theo dõi lại khách hàng và học từ dữ liệu | Mất khách, quên lịch, chăm sóc rời rạc, không nhìn thấy điểm nghẽn |
 | AI | Hỗ trợ luyện tập, soạn nội dung, phân tích hội thoại, tăng tốc học nghề | Học chậm, làm thủ công nhiều, thiếu công cụ phản biện và cải tiến |
 | Mentoring | Biến kinh nghiệm của người giỏi thành năng lực của người mới | Người mới tự bơi, sai lặp lại, đội nhóm không nhân bản được |
 
@@ -54,15 +54,15 @@ Người bán hàng giỏi không phải là người nói nhiều nhất, mà l
 
 | Giai đoạn | Trọng tâm | KPI chính |
 |---|---|---|
-| Ngày 1–30: Xây nền | Ước Mơ, sản phẩm, CRM, pitch, role-play | 15 cuộc gọi/ngày, 3 bài content/tuần |
-| Ngày 31–60: Thực chiến | Tự tạo nguồn khách, tăng volume, đi thực tế | 20 cuộc gọi/ngày, 2 lịch hẹn/tuần |
-| Ngày 61–90: Tốc độ | Tối ưu pipeline, chốt giao dịch đầu tiên | 3 lịch hẹn/tuần, 1 deal tiến triển/tháng |`,
+| Ngày 1–30: Xây nền | Ước Mơ, sản phẩm, CRM, trình bày tư vấn ngắn, luyện tập tình huống | 15 cuộc gọi/ngày, 3 bài nội dung/tuần |
+| Ngày 31–60: Thực chiến | Tự tạo nguồn khách, tăng khối lượng hoạt động, đi thực tế | 20 cuộc gọi/ngày, 2 lịch hẹn/tuần |
+| Ngày 61–90: Tốc độ | Tối ưu đường ống cơ hội bán hàng, chốt giao dịch đầu tiên | 3 lịch hẹn/tuần, 1 giao dịch tiến triển/tháng |`,
     quiz: [
-      { id: 1, question: "Tinh thần chủ đạo của chương trình đào tạo 2026 là gì?", options: ["Chỉ cần KPI cao là đủ", "Ước Mơ là động cơ, KPI/CRM/AI là hệ thống vận hành — phải kết hợp cả hai", "Chỉ cần có ước mơ lớn", "Công nghệ sẽ thay thế hoàn toàn kỹ năng bán hàng"], correctAnswer: 1 },
+      { id: 1, question: "Tinh thần chủ đạo của chương trình đào tạo 2026 là gì?", options: ["Chỉ cần KPI cao là đủ", "Ước Mơ là động cơ, chỉ số hiệu suất chính (KPI), hệ thống quản trị quan hệ khách hàng (CRM) và trí tuệ nhân tạo (AI) là hệ thống vận hành — phải kết hợp cả hai", "Chỉ cần có ước mơ lớn", "Công nghệ sẽ thay thế hoàn toàn kỹ năng bán hàng"], correctAnswer: 1 },
       { id: 2, question: "Nếu thiếu CRM, điều gì sẽ xảy ra?", options: ["Không ảnh hưởng gì", "Mất khách, quên lịch, chăm sóc rời rạc", "Chỉ mất thời gian nhập liệu", "Khách hàng sẽ tự tìm đến"], correctAnswer: 1 },
       { id: 3, question: "Lộ trình đào tạo chia thành mấy giai đoạn?", options: ["2 giai đoạn", "3 giai đoạn (30-60-90 ngày)", "4 giai đoạn", "1 giai đoạn 90 ngày"], correctAnswer: 1 },
       { id: 4, question: "Vai trò của Mentoring trong hệ thống đào tạo là gì?", options: ["Thay thế tài liệu học", "Biến kinh nghiệm của người giỏi thành năng lực của người mới", "Chỉ để kiểm tra KPI", "Không quan trọng với người mới"], correctAnswer: 1 },
-      { id: 5, question: "Giai đoạn 31-60 ngày có trọng tâm gì?", options: ["Học sản phẩm", "Tự tạo nguồn khách, tăng volume gọi, đi thực tế dự án", "Chỉ role-play", "Nghỉ ngơi và ôn tập"], correctAnswer: 1 },
+      { id: 5, question: "Giai đoạn 31-60 ngày có trọng tâm gì?", options: ["Học sản phẩm", "Tự tạo nguồn khách, tăng khối lượng hoạt động gọi, đi thực tế dự án", "Chỉ luyện tập tình huống", "Nghỉ ngơi và ôn tập"], correctAnswer: 1 },
     ]
   },
   {
@@ -81,7 +81,7 @@ Trước khi học sản phẩm, trước khi học kịch bản và trước kh
 
 Ước Mơ lớn không phải là khẩu hiệu treo tường. Ước Mơ lớn là năng lượng giúp người mới chịu được những ngày chưa có khách, những cuộc gọi bị từ chối, những buổi tư vấn chưa thành công và những lần phải sửa lại cách làm.
 
-Tuy nhiên, bản 2026 nhấn mạnh rằng **Ước Mơ phải được quản trị**. Nếu Ước Mơ là động cơ, thì KPI là đồng hồ tốc độ, CRM là bản đồ hành trình, AI là trợ lý dẫn đường, còn mentoring là người huấn luyện ngồi cạnh để chỉnh tay lái.
+Tuy nhiên, bản 2026 nhấn mạnh rằng **Ước Mơ phải được quản trị**. Nếu Ước Mơ là động cơ, thì chỉ số hiệu suất chính (KPI) là đồng hồ tốc độ, hệ thống quản trị quan hệ khách hàng (CRM) là bản đồ hành trình, trí tuệ nhân tạo (AI) là trợ lý dẫn đường, còn mentoring là người huấn luyện ngồi cạnh để chỉnh tay lái.
 
 ## Bài tập Tuyên ngôn Ước Mơ
 
@@ -97,7 +97,7 @@ Viết 300–500 chữ trả lời:
 
 | Ước Mơ | Mục tiêu 12 tháng | Mục tiêu quý | Hành vi hằng ngày | Chỉ số đo tuần |
 |---|---|---|---|---|
-| Thu nhập 500 triệu/năm | 42 triệu/tháng | 3 giao dịch/quý | 20 cuộc gọi + 3 lịch hẹn/ngày | Hội thoại chất lượng, lịch hẹn, tỷ lệ chuyển đổi |
+| Thu nhập 1 tỷ/năm | 84 triệu/tháng | 6 giao dịch/quý | 100 cuộc gọi + 2 lịch hẹn | Hội thoại chất lượng, lịch hẹn, tỷ lệ chuyển đổi |
 
 ## Câu hỏi khởi động
 
@@ -106,18 +106,18 @@ Viết 300–500 chữ trả lời:
 | Tôi muốn đạt điều gì trong 3 năm tới? | Viết thành hình ảnh cụ thể về thu nhập, năng lực, gia đình, vị thế nghề nghiệp và lối sống mong muốn |
 | Vì sao điều đó quan trọng với tôi? | Gắn mục tiêu với lý do thật: trách nhiệm, tự do, gia đình, sự trưởng thành |
 | Tôi cần trở thành ai để đạt được điều đó? | Chuyển từ mong muốn bên ngoài sang tiêu chuẩn con người: kỷ luật, chuyên nghiệp, học nhanh, giữ lời |
-| Tôi sẽ làm gì mỗi ngày? | Chuyển Ước Mơ thành hành vi: học sản phẩm, tạo hội thoại, cập nhật CRM, follow-up, role-play |
+| Tôi sẽ làm gì mỗi ngày? | Chuyển Ước Mơ thành hành vi: học sản phẩm, tạo hội thoại, cập nhật hệ thống quản trị quan hệ khách hàng (CRM), theo dõi lại khách hàng, luyện tập tình huống |
 | Tôi sẽ đo điều gì mỗi tuần? | Đo số hội thoại chất lượng, số lịch hẹn, tỷ lệ chuyển bước, số khách được chăm sóc lại |
 
 ## Nguyên tắc
 
 > "Tôi giữ vững ước mơ lớn làm động cơ, đồng thời chuyển hóa nó thành mục tiêu rõ, kế hoạch cụ thể và thói quen đo lường hằng tuần."`,
     quiz: [
-      { id: 1, question: "Bài tập bắt buộc trong ngày đầu tiên là gì?", options: ["Gọi 20 cuộc điện thoại", "Viết Tuyên ngôn Ước Mơ nghề nghiệp 300-500 chữ", "Học thuộc kịch bản bán hàng", "Nhập 50 khách vào CRM"], correctAnswer: 1 },
-      { id: 2, question: "Ước Mơ trong bản 2026 cần được quản trị bằng gì?", options: ["Chỉ cần viết ra giấy", "KPI, CRM, AI và Mentoring", "Chỉ cần nói với sếp", "Không cần quản trị"], correctAnswer: 1 },
-      { id: 3, question: "Nếu mục tiêu thu nhập 500 triệu/năm, mục tiêu tháng là bao nhiêu?", options: ["50 triệu", "42 triệu", "35 triệu", "60 triệu"], correctAnswer: 1 },
+      { id: 1, question: "Bài tập bắt buộc trong ngày đầu tiên là gì?", options: ["Gọi 20 cuộc điện thoại", "Viết Tuyên ngôn Ước Mơ nghề nghiệp 300-500 chữ", "Học thuộc kịch bản bán hàng", "Nhập 50 khách vào hệ thống quản trị quan hệ khách hàng (CRM)"], correctAnswer: 1 },
+      { id: 2, question: "Ước Mơ trong bản 2026 cần được quản trị bằng gì?", options: ["Chỉ cần viết ra giấy", "chỉ số hiệu suất chính (KPI), hệ thống quản trị quan hệ khách hàng (CRM), trí tuệ nhân tạo (AI) và kèm cặp chuyên môn", "Chỉ cần nói với sếp", "Không cần quản trị"], correctAnswer: 1 },
+      { id: 3, question: "Nếu mục tiêu thu nhập 1 tỷ/năm, mục tiêu tháng là bao nhiêu?", options: ["50 triệu", "84 triệu", "35 triệu", "60 triệu"], correctAnswer: 1 },
       { id: 4, question: "Ước Mơ lớn đóng vai trò gì trong nghề môi giới?", options: ["Chỉ là khẩu hiệu", "Là năng lượng giúp vượt qua từ chối và khó khăn", "Không quan trọng bằng kỹ năng", "Chỉ cần trong tháng đầu"], correctAnswer: 1 },
-      { id: 5, question: "Hành vi hằng ngày để đạt mục tiêu 3 giao dịch/quý gồm gì?", options: ["Chỉ cần đăng content", "20 cuộc gọi + 3 lịch hẹn/ngày", "Chờ khách gọi đến", "Chỉ cần học sản phẩm"], correctAnswer: 1 },
+      { id: 5, question: "Hành vi hằng ngày để đạt mục tiêu 6 giao dịch/quý gồm gì?", options: ["Chỉ cần đăng nội dung", "100 cuộc gọi + 2 lịch hẹn", "Chờ khách gọi đến", "Chỉ cần học sản phẩm"], correctAnswer: 1 },
     ]
   },
   {
@@ -136,8 +136,8 @@ Nhân sự mới của năm 2026 không phải là người chỉ thuộc vài k
 |---|---|
 | Tôi phải có ước mơ lớn | Tôi giữ vững ước mơ lớn làm động cơ, đồng thời chuyển hóa nó thành mục tiêu rõ, kế hoạch cụ thể và thói quen đo lường hằng tuần |
 | Cố gắng hết sức là đủ | Nỗ lực phải đi kèm dữ liệu — đo lường để biết đang đúng hướng hay cần điều chỉnh |
-| Kinh nghiệm sẽ đến theo thời gian | Kinh nghiệm được tăng tốc bằng role-play có phản hồi, AI hỗ trợ và mentor kèm cặp |
-| Khách hàng sẽ tự đến nếu mình giỏi | Khách hàng đến từ hệ thống tạo nguồn chủ động + thương hiệu cá nhân + CRM nurturing |
+| Kinh nghiệm sẽ đến theo thời gian | Kinh nghiệm được tăng tốc bằng luyện tập tình huống có phản hồi, AI hỗ trợ và mentor kèm cặp |
+| Khách hàng sẽ tự đến nếu mình giỏi | Khách hàng đến từ hệ thống tạo nguồn chủ động + thương hiệu cá nhân + nuôi dưỡng khách hàng qua hệ thống quản trị quan hệ khách hàng (CRM) |
 | Tôi phải thuyết phục khách hàng | Tôi phải hiểu nhu cầu, làm rõ vấn đề, tư vấn bằng sự chân thành và đề xuất lựa chọn phù hợp |
 
 ## Bảng năng lực nền
@@ -149,16 +149,16 @@ Nhân sự mới của năm 2026 không phải là người chỉ thuộc vài k
 | Chịu áp lực | Không bỏ cuộc khi bị từ chối | Duy trì KPI gọi điện dù tỷ lệ từ chối cao |
 | Trung thực | Báo cáo đúng số liệu, nhận lỗi khi sai | Không có sai lệch dữ liệu CRM |
 | Động cơ nghề nghiệp | Có bản tuyên ngôn Ước Mơ và cam kết 90 ngày | Trình bày được lý do chọn nghề trong 2 phút |
-| Giao tiếp | Biết xin phép, đặt câu hỏi, tóm tắt nhu cầu | Đạt role-play mở đầu và khám phá nhu cầu từ 3,5/5 |
+| Giao tiếp | Biết xin phép, đặt câu hỏi, tóm tắt nhu cầu | Đạt luyện tập tình huống mở đầu và khám phá nhu cầu từ 3,5/5 |
 
 ## Điều quan trọng nhất trong 90 ngày đầu
 
 Trong 90 ngày đầu, điều quan trọng nhất không phải là chứng minh mình giỏi ngay lập tức. Điều quan trọng nhất là **hình thành nền tảng đúng**: đi làm đúng nhịp, học sản phẩm, luyện hội thoại, dùng CRM, chăm sóc khách hàng và tiếp nhận phản hồi. Người mới được kỳ vọng có nhiệt huyết, nhưng nhiệt huyết phải thể hiện bằng hành động cụ thể, không chỉ bằng lời nói.`,
     quiz: [
-      { id: 1, question: "Tư duy 2026 về việc 'gọi thật nhiều' được chuyển đổi thành gì?", options: ["Gọi càng nhiều càng tốt", "Tạo đủ số lượng hội thoại chất lượng, ghi nhận dữ liệu đúng và theo dõi đến cùng", "Không cần gọi nữa, chỉ cần đăng content", "Chờ khách gọi đến"], correctAnswer: 1 },
+      { id: 1, question: "Tư duy 2026 về việc 'gọi thật nhiều' được chuyển đổi thành gì?", options: ["Gọi càng nhiều càng tốt", "Tạo đủ số lượng hội thoại chất lượng, ghi nhận dữ liệu đúng và theo dõi đến cùng", "Không cần gọi nữa, chỉ cần đăng nội dung", "Chờ khách gọi đến"], correctAnswer: 1 },
       { id: 2, question: "Tiêu chuẩn 30 ngày đầu cho năng lực 'Chủ động học' là gì?", options: ["Đọc 1 cuốn sách", "Hoàn thành 100% module bắt buộc", "Chỉ cần đi đào tạo đầy đủ", "Hỏi mentor 1 lần/tuần"], correctAnswer: 1 },
-      { id: 3, question: "Theo tư duy 2026, khách hàng đến từ đâu?", options: ["Tự đến nếu mình giỏi", "Hệ thống tạo nguồn chủ động + thương hiệu cá nhân + CRM nurturing", "Chỉ từ quảng cáo công ty", "Chỉ từ referral"], correctAnswer: 1 },
-      { id: 4, question: "Điều quan trọng nhất trong 90 ngày đầu là gì?", options: ["Chốt được nhiều deal nhất", "Hình thành nền tảng đúng: nhịp làm việc, kỹ năng, CRM", "Tuyển thêm người mới", "Có thu nhập cao nhất team"], correctAnswer: 1 },
+      { id: 3, question: "Theo tư duy 2026, khách hàng đến từ đâu?", options: ["Tự đến nếu mình giỏi", "Hệ thống tạo nguồn chủ động + thương hiệu cá nhân + nuôi dưỡng khách hàng qua hệ thống quản trị quan hệ khách hàng (CRM)", "Chỉ từ quảng cáo công ty", "Chỉ từ giới thiệu khách hàng"], correctAnswer: 1 },
+      { id: 4, question: "Điều quan trọng nhất trong 90 ngày đầu là gì?", options: ["Chốt được nhiều giao dịch nhất", "Hình thành nền tảng đúng: nhịp làm việc, kỹ năng, CRM", "Tuyển thêm người mới", "Có thu nhập cao nhất team"], correctAnswer: 1 },
       { id: 5, question: "Năng lực 'Trung thực' được đo bằng tiêu chuẩn nào?", options: ["Nói thật với khách hàng", "Không có sai lệch dữ liệu CRM", "Không nói xấu đồng nghiệp", "Đến đúng giờ"], correctAnswer: 1 },
     ]
   },
@@ -185,7 +185,7 @@ Thay vì chỉ dùng các khẩu hiệu tạo động lực, đào tạo 2026 c�
 ## 3. Hiểu sản phẩm
 - **Mô tả**: Nắm vững pháp lý, quy hoạch, tiện ích, giá trị đầu tư của từng dự án
 - **Biểu hiện đạt**: Trình bày được sản phẩm trong 60 giây, 3 phút và 10 phút theo từng nhóm khách
-- **Cách đo**: Điểm role-play pitch sản phẩm
+- **Cách đo**: Điểm luyện tập tình huống trình bày tư vấn ngắn sản phẩm
 
 ## 4. Hiểu khách hàng
 - **Mô tả**: Phân loại nhu cầu (ở thực/đầu tư/tích sản), ngân sách, timeline, nỗi lo
@@ -200,7 +200,7 @@ Thay vì chỉ dùng các khẩu hiệu tạo động lực, đào tạo 2026 c�
 ## 6. Tư vấn & Xử lý do dự
 - **Mô tả**: Dẫn dắt bằng câu hỏi, xử lý từ chối bằng đồng cảm + dữ liệu
 - **Biểu hiện đạt**: Không tranh luận thắng thua; luôn tóm tắt lại nhu cầu và hành động kế tiếp
-- **Cách đo**: Điểm role-play xử lý từ chối, tỷ lệ chuyển bước trong pipeline
+- **Cách đo**: Điểm luyện tập tình huống xử lý từ chối, tỷ lệ chuyển bước trong đường ống cơ hội bán hàng
 
 ## 7. Tự học bằng dữ liệu
 - **Mô tả**: Đọc báo cáo CRM, phân tích tỷ lệ chuyển đổi, tự cải tiến
@@ -213,7 +213,7 @@ Thay vì chỉ dùng các khẩu hiệu tạo động lực, đào tạo 2026 c�
 |---|---|---|
 | Tư duy nghề nghiệp | Hiểu rằng kinh doanh BĐS là nghề xây dựng niềm tin qua thời gian | Không phàn nàn khi bị từ chối, biết ghi nhận bài học |
 | Động cơ và kỷ luật | Giữ Ước Mơ làm động cơ, biến động cơ thành kế hoạch hành động | Có mục tiêu tuần, báo cáo ngày, cam kết cải tiến |
-| Hiểu sản phẩm | Nắm điểm mạnh, điểm yếu, nhóm khách phù hợp | Pitch được sản phẩm trong 60s, 3 phút, 10 phút |
+| Hiểu sản phẩm | Nắm điểm mạnh, điểm yếu, nhóm khách phù hợp | Trình bày tư vấn ngắn được sản phẩm trong 60s, 3 phút, 10 phút |
 | Hiểu khách hàng | Phân loại nhu cầu, động cơ mua, khả năng tài chính | Luôn có ghi chú nhu cầu trong CRM |
 | Giao tiếp đa kênh | Kết hợp gọi điện, nhắn tin, email, MXH, gặp trực tiếp | Có kịch bản phù hợp cho từng kênh |
 | Tư vấn và xử lý do dự | Giúp khách so sánh lựa chọn, làm rõ băn khoăn | Không tranh luận; luôn tóm tắt nhu cầu + bước tiếp |
@@ -225,7 +225,7 @@ Thay vì chỉ dùng các khẩu hiệu tạo động lực, đào tạo 2026 c�
 
 Mỗi năng lực có: Mô tả → Hành vi cụ thể → Cách đo lường → Bài tập thực hành.`,
     quiz: [
-      { id: 1, question: "Năng lực 'Tư duy nghề nghiệp' yêu cầu hiểu điều gì?", options: ["Nghề bán hàng là nghề nói nhiều", "Kinh doanh BĐS là nghề xây dựng niềm tin qua thời gian", "Chỉ cần chốt deal nhanh", "Nghề này dễ kiếm tiền"], correctAnswer: 1 },
+      { id: 1, question: "Năng lực 'Tư duy nghề nghiệp' yêu cầu hiểu điều gì?", options: ["Nghề bán hàng là nghề nói nhiều", "Kinh doanh BĐS là nghề xây dựng niềm tin qua thời gian", "Chỉ cần chốt giao dịch nhanh", "Nghề này dễ kiếm tiền"], correctAnswer: 1 },
       { id: 2, question: "Vòng lặp phát triển năng lực gồm mấy bước?", options: ["3 bước", "5 bước", "7 bước: Học khung → Xem mẫu → Làm thử → Nhận phản hồi → Sửa kịch bản → Làm lại → Đo kết quả", "10 bước"], correctAnswer: 2 },
       { id: 3, question: "Năng lực 'Hiểu khách hàng' yêu cầu phân loại gì?", options: ["Chỉ phân loại theo thu nhập", "Nhu cầu (ở thực/đầu tư/tích sản), ngân sách, timeline, nỗi lo", "Chỉ phân loại theo khu vực", "Chỉ phân loại theo độ tuổi"], correctAnswer: 1 },
       { id: 4, question: "Biểu hiện đạt yêu cầu của 'Hiểu sản phẩm' là gì?", options: ["Đọc hết brochure", "Trình bày được sản phẩm trong 60 giây, 3 phút và 10 phút", "Nhớ hết giá bán", "Biết tên tất cả dự án"], correctAnswer: 1 },
@@ -245,25 +245,25 @@ Một lỗi phổ biến trong đào tạo nhân sự mới là đưa quá nhi�
 ## Giai đoạn 1 (Ngày 1–30): NỀN TẢNG
 
 ### Tuần 1–2
-- Học sản phẩm, học CRM, hoàn thành profile MXH
+- Học sản phẩm, học hệ thống quản trị quan hệ khách hàng (CRM), hoàn thành hồ sơ mạng xã hội
 - Viết Tuyên ngôn Ước Mơ
-- Luyện pitch cá nhân và pitch sản phẩm
+- Luyện trình bày tư vấn ngắn cá nhân và trình bày tư vấn ngắn sản phẩm
 
 ### Tuần 3–4
 - Bắt đầu gọi điện (data công ty)
-- Role-play hằng ngày
-- Đăng content đầu tiên
+- Luyện tập tình huống hằng ngày
+- Đăng nội dung đầu tiên
 
 ### KPI Giai đoạn 1
 - 15 cuộc gọi/ngày
-- 3 bài content/tuần
+- 3 bài nội dung/tuần
 - 100% module học hoàn thành
 
 ## Giai đoạn 2 (Ngày 31–60): THỰC CHIẾN
 
 ### Tuần 5–6
 - Tự tạo nguồn khách
-- Tăng volume gọi
+- Tăng khối lượng hoạt động gọi
 - Đi thực tế dự án
 
 ### Tuần 7–8
@@ -273,39 +273,39 @@ Một lỗi phổ biến trong đào tạo nhân sự mới là đưa quá nhi�
 ### KPI Giai đoạn 2
 - 20 cuộc gọi/ngày
 - 2 lịch hẹn/tuần
-- 5 bài content/tuần
+- 5 bài nội dung/tuần
 - CRM cập nhật 100%
 
 ## Giai đoạn 3 (Ngày 61–90): TỐC ĐỘ
 
 ### Tuần 9–10
-- Tối ưu pipeline
+- Tối ưu đường ống cơ hội bán hàng
 - Chốt giao dịch đầu tiên (hoặc tiến rất gần)
 
 ### Tuần 11–12
-- Bắt đầu nhận referral
-- Content có tương tác ổn định
+- Bắt đầu nhận giới thiệu khách hàng
+- Nội dung có tương tác ổn định
 - Tự quản lý thời gian
 
 ### KPI Giai đoạn 3
 - 3 lịch hẹn/tuần
-- 1 deal tiến triển/tháng
-- 7 bài content/tuần
+- 1 giao dịch tiến triển/tháng
+- 7 bài nội dung/tuần
 - Tự mentor được 1 kỹ năng
 
 ## Bảng tổng hợp lộ trình
 
 | Giai đoạn | Trọng tâm | Sản phẩm đầu ra | Tiêu chuẩn chuyển giai đoạn |
 |---|---|---|---|
-| Ngày 1–30: Xây nền | Ước Mơ, sản phẩm, CRM, pitch, role-play | Tuyên ngôn Ước Mơ, pitch cá nhân, hồ sơ CRM mẫu | Đi làm đúng nhịp, dùng được CRM, đạt role-play cơ bản |
-| Ngày 31–60: Thực chiến | Tạo nguồn, tăng volume, đi thực tế | Lịch hẹn từ nguồn tự tạo, báo cáo tuần | Có khách tự tạo, xử lý được từ chối cơ bản |
-| Ngày 61–90: Tốc độ | Tối ưu pipeline, chốt deal | Deal tiến triển, content ổn định | Tự vận hành được, bắt đầu mentor người khác |`,
+| Ngày 1–30: Xây nền | Ước Mơ, sản phẩm, CRM, trình bày tư vấn ngắn, luyện tập tình huống | Tuyên ngôn Ước Mơ, trình bày tư vấn ngắn cá nhân, hồ sơ khách hàng mẫu trên hệ thống quản trị quan hệ khách hàng (CRM) | Đi làm đúng nhịp, dùng được hệ thống quản trị quan hệ khách hàng (CRM), đạt luyện tập tình huống cơ bản |
+| Ngày 31–60: Thực chiến | Tạo nguồn, tăng khối lượng hoạt động, đi thực tế | Lịch hẹn từ nguồn tự tạo, báo cáo tuần | Có khách tự tạo, xử lý được từ chối cơ bản |
+| Ngày 61–90: Tốc độ | Tối ưu đường ống cơ hội bán hàng, chốt giao dịch | Giao dịch tiến triển, nội dung ổn định | Tự vận hành được, bắt đầu mentor người khác |`,
     quiz: [
-      { id: 1, question: "Tuần 1-2 cần hoàn thành những gì?", options: ["Gọi 50 cuộc/ngày", "Học sản phẩm, học CRM, hoàn thành profile MXH, viết Tuyên ngôn Ước Mơ", "Chốt deal đầu tiên", "Tự tạo nguồn khách"], correctAnswer: 1 },
+      { id: 1, question: "Tuần 1-2 cần hoàn thành những gì?", options: ["Gọi 50 cuộc/ngày", "Học sản phẩm, học hệ thống quản trị quan hệ khách hàng (CRM), hoàn thành hồ sơ mạng xã hội, viết Tuyên ngôn Ước Mơ", "Chốt giao dịch đầu tiên", "Tự tạo nguồn khách"], correctAnswer: 1 },
       { id: 2, question: "KPI gọi điện giai đoạn 2 (ngày 31-60) là bao nhiêu?", options: ["10 cuộc/ngày", "15 cuộc/ngày", "20 cuộc/ngày", "30 cuộc/ngày"], correctAnswer: 2 },
-      { id: 3, question: "Giai đoạn 3 có mục tiêu content bao nhiêu bài/tuần?", options: ["3 bài", "5 bài", "7 bài", "10 bài"], correctAnswer: 2 },
-      { id: 4, question: "Khi nào bắt đầu tự tạo nguồn khách?", options: ["Ngay tuần 1", "Từ tuần 5-6 (giai đoạn 2)", "Từ tháng 3", "Sau khi có deal đầu tiên"], correctAnswer: 1 },
-      { id: 5, question: "Tiêu chuẩn chuyển từ giai đoạn 2 sang giai đoạn 3 là gì?", options: ["Chốt được 3 deal", "Có khách tự tạo, xử lý được từ chối cơ bản", "Thu nhập đạt 30 triệu/tháng", "Tuyển được 2 người mới"], correctAnswer: 1 },
+      { id: 3, question: "Giai đoạn 3 có mục tiêu nội dung bao nhiêu bài/tuần?", options: ["3 bài", "5 bài", "7 bài", "10 bài"], correctAnswer: 2 },
+      { id: 4, question: "Khi nào bắt đầu tự tạo nguồn khách?", options: ["Ngay tuần 1", "Từ tuần 5-6 (giai đoạn 2)", "Từ tháng 3", "Sau khi có giao dịch đầu tiên"], correctAnswer: 1 },
+      { id: 5, question: "Tiêu chuẩn chuyển từ giai đoạn 2 sang giai đoạn 3 là gì?", options: ["Chốt được 3 giao dịch", "Có khách tự tạo, xử lý được từ chối cơ bản", "Thu nhập đạt 30 triệu/tháng", "Tuyển được 2 người mới"], correctAnswer: 1 },
     ]
   },
   {
@@ -362,7 +362,7 @@ Hiểu sản phẩm không chỉ là thuộc lòng thông số kỹ thuật. Hi�
       { id: 1, question: "Hiểu sản phẩm theo hướng tư vấn nghĩa là gì?", options: ["Thuộc lòng brochure", "Biết sản phẩm phù hợp với ai, giải quyết vấn đề gì, tạo giá trị gì", "Biết giá bán chính xác", "Biết tên chủ đầu tư"], correctAnswer: 1 },
       { id: 2, question: "Quy hoạch 1/500 là gì?", options: ["Bản đồ khu vực", "Bản vẽ chi tiết mặt bằng tổng thể dự án", "Giấy phép xây dựng", "Hợp đồng mua bán"], correctAnswer: 1 },
       { id: 3, question: "Khi không biết câu trả lời cho khách, nên làm gì?", options: ["Bịa thông tin cho khách yên tâm", "Hẹn xác nhận lại trong 24h, không bịa thông tin", "Nói 'em không biết' rồi im lặng", "Chuyển khách cho người khác"], correctAnswer: 1 },
-      { id: 4, question: "Bài tập pitch sản phẩm yêu cầu thời lượng bao lâu?", options: ["1 phút", "3 phút", "5 phút", "10 phút"], correctAnswer: 2 },
+      { id: 4, question: "Bài tập trình bày tư vấn ngắn sản phẩm yêu cầu thời lượng bao lâu?", options: ["1 phút", "3 phút", "5 phút", "10 phút"], correctAnswer: 2 },
       { id: 5, question: "USP của dự án nghĩa là gì?", options: ["Giá bán", "Điểm khác biệt so với đối thủ cùng khu vực", "Diện tích căn hộ", "Số tầng tòa nhà"], correctAnswer: 1 },
     ]
   },
@@ -385,9 +385,9 @@ Trong nghề môi giới bất động sản, kỹ năng bán hàng giỏi đế
 | Nguồn | Mô tả | Phù hợp người mới | Hành động |
 |---|---|---|---|
 | Data công ty | Danh sách từ marketing/quảng cáo | Rất phù hợp — nguồn chính tháng đầu | Gọi theo kịch bản, phân loại, nhập CRM |
-| Referral | Giới thiệu từ người quen, khách cũ | Cao — tỷ lệ chuyển đổi tốt nhất | Chủ động xin giới thiệu sau mỗi tương tác tốt |
-| MXH cá nhân | Facebook, Zalo, TikTok | Rất phù hợp — miễn phí | Đăng content giá trị, tương tác, nhắn tin cá nhân hóa |
-| Sự kiện/Open house | Mở bán, tham quan, hội thảo | Phù hợp — gặp trực tiếp | Đến sớm, thu thập info, follow-up 24h |
+| Giới thiệu khách hàng | Giới thiệu từ người quen, khách cũ | Cao — tỷ lệ chuyển đổi tốt nhất | Chủ động xin giới thiệu sau mỗi tương tác tốt |
+| MXH cá nhân | Facebook, Zalo, TikTok | Rất phù hợp — miễn phí | Đăng nội dung giá trị, tương tác, nhắn tin cá nhân hóa |
+| Sự kiện/Open house | Mở bán, tham quan, hội thảo | Phù hợp — gặp trực tiếp | Đến sớm, thu thập info, theo dõi lại khách hàng 24h |
 | Cộng đồng/Hội nhóm | Nhóm FB, Zalo về BĐS khu vực | Phù hợp — cần kiên nhẫn | Chia sẻ kiến thức, không spam |
 | Farming khu vực | Chuyên gia 1-2 khu vực cụ thể | Từ tháng 2 | Khảo sát, quay video, nắm giá |
 | Đối tác liên kết | Ngân hàng, nội thất, luật sư | Nâng cao — từ tháng 3 | Gặp gỡ, trao đổi giá trị, giới thiệu qua lại |
@@ -395,11 +395,11 @@ Trong nghề môi giới bất động sản, kỹ năng bán hàng giỏi đế
 ## Quy trình tạo nguồn khách hằng tuần
 
 ### Bước 1: Xác định mục tiêu nguồn khách tuần
-Nhân sự mới cần có KPI tạo nguồn rõ ràng. Ví dụ: tuần này cần tạo được 15 khách mới vào pipeline.
+Nhân sự mới cần có KPI tạo nguồn rõ ràng. Ví dụ: tuần này cần tạo được 15 khách mới vào đường ống cơ hội bán hàng.
 
 ### Bước 2: Phân bổ thời gian theo nguồn
 
-| Giai đoạn | Data công ty | MXH & Content | Referral | Sự kiện |
+| Giai đoạn | Data công ty | MXH & Nội dung | Giới thiệu khách hàng | Sự kiện |
 |---|---|---|---|---|
 | Tuần 1–4 | 60% | 20% | 10% | 10% |
 | Tuần 5–8 | 40% | 30% | 15% | 15% |
@@ -412,7 +412,7 @@ Mỗi ngày thực hiện ít nhất 3 hành động tạo nguồn:
 - Tương tác có chủ đích trong 2–3 nhóm/cộng đồng
 
 ### Bước 4: Nhập CRM ngay lập tức
-Mọi khách hàng tiềm năng phải được nhập CRM trong vòng 2 giờ. Ghi rõ: nguồn, nhu cầu sơ bộ, bước tiếp theo, ngày follow-up.
+Mọi khách hàng tiềm năng phải được nhập CRM trong vòng 2 giờ. Ghi rõ: nguồn, nhu cầu sơ bộ, bước tiếp theo, ngày theo dõi lại khách hàng.
 
 ### Bước 5: Đo lường và cải tiến
 Cuối tuần review: nguồn nào cho khách chất lượng nhất? Điều chỉnh phân bổ thời gian cho tuần sau.
@@ -437,7 +437,7 @@ Cuối tuần review: nguồn nào cho khách chất lượng nhất? Điều ch
 
 | Chỉ số | Tuần 1–4 | Tuần 5–8 | Tuần 9–12 |
 |---|---|---|---|
-| Khách mới vào pipeline/tuần | 10–15 | 15–20 | 20–25 |
+| Khách mới vào đường ống cơ hội bán hàng/tuần | 10–15 | 15–20 | 20–25 |
 | Cuộc gọi tiếp cận mới/ngày | 15–20 | 20–25 | 15–20 |
 | Bài đăng MXH/tuần | 3–5 | 5–7 | 5–7 |
 | Lịch hẹn từ nguồn tự tạo/tuần | 1–2 | 2–3 | 3–5 |
@@ -447,7 +447,7 @@ Cuối tuần review: nguồn nào cho khách chất lượng nhất? Điều ch
       { id: 2, question: "Công thức tiếp cận lạnh 3V gồm những gì?", options: ["Vision, Victory, Value", "Value first, Validate, Volunteer", "Verify, Validate, Visualize", "Voice, Video, Virtual"], correctAnswer: 1 },
       { id: 3, question: "Trong tuần 1-4, phân bổ thời gian cho Data công ty là bao nhiêu?", options: ["30%", "40%", "60%", "80%"], correctAnswer: 2 },
       { id: 4, question: "Khách hàng tiềm năng phải được nhập CRM trong bao lâu?", options: ["24 giờ", "2 giờ", "1 tuần", "Cuối ngày"], correctAnswer: 1 },
-      { id: 5, question: "Nguồn khách nào có tỷ lệ chuyển đổi cao nhất?", options: ["Data công ty", "MXH cá nhân", "Referral (giới thiệu)", "Cộng đồng/Hội nhóm"], correctAnswer: 2 },
+      { id: 5, question: "Nguồn khách nào có tỷ lệ chuyển đổi cao nhất?", options: ["Data công ty", "MXH cá nhân", "Giới thiệu khách hàng (giới thiệu)", "Cộng đồng/Hội nhóm"], correctAnswer: 2 },
       { id: 6, question: "Farming khu vực phù hợp từ thời điểm nào?", options: ["Ngay tuần 1", "Từ tháng 2", "Từ tháng 6", "Sau 1 năm"], correctAnswer: 1 },
       { id: 7, question: "KPI lịch hẹn từ nguồn tự tạo tuần 9-12 là bao nhiêu?", options: ["1-2/tuần", "2-3/tuần", "3-5/tuần", "5-7/tuần"], correctAnswer: 2 },
     ]
@@ -466,25 +466,25 @@ Cuối tuần review: nguồn nào cho khách chất lượng nhất? Điều ch
 - **Mục tiêu**: Tạo ấn tượng đầu tiên, xây dựng rapport
 - **Câu nói mẫu**: "Chào anh/chị, em là [Tên] từ [Công ty]. Em được biết anh/chị đang quan tâm đến BĐS khu vực [X], em có thể chia sẻ một số thông tin hữu ích không ạ?"
 - **Lỗi thường gặp**: Nói quá nhiều về bản thân, không hỏi khách
-- **Bài tập**: Role-play mở đầu cuộc gọi 30 giây
+- **Bài tập**: Luyện tập tình huống mở đầu cuộc gọi 30 giây
 
 ## Bước 2: Khám phá nhu cầu
 - **Mục tiêu**: Đặt câu hỏi mở, lắng nghe chủ động, ghi nhận
 - **Câu hỏi mẫu**: "Anh/chị đang tìm kiếm BĐS cho mục đích ở hay đầu tư ạ?", "Ngân sách anh/chị đang cân nhắc trong khoảng nào?", "Thời điểm anh/chị muốn sở hữu là khi nào?"
 - **Lỗi thường gặp**: Tư vấn ngay khi chưa hiểu nhu cầu
-- **Bài tập**: Role-play khám phá nhu cầu 3 phút
+- **Bài tập**: Luyện tập tình huống khám phá nhu cầu 3 phút
 
 ## Bước 3: Tư vấn giải pháp
 - **Mục tiêu**: Trình bày sản phẩm phù hợp nhu cầu (không phải sản phẩm tốt nhất)
 - **Nguyên tắc**: Kết nối từng đặc điểm sản phẩm với nhu cầu đã khám phá
 - **Lỗi thường gặp**: Liệt kê tất cả ưu điểm mà không liên quan đến khách
-- **Bài tập**: Pitch 5 phút có gắn nhu cầu khách
+- **Bài tập**: Trình bày tư vấn ngắn 5 phút có gắn nhu cầu khách
 
 ## Bước 4: Xử lý do dự
 - **Mục tiêu**: Dùng công thức "Cảm thấy – Đã cảm thấy – Đã tìm ra"
 - **Ví dụ**: "Em hiểu anh/chị cảm thấy giá hơi cao. Nhiều khách hàng ban đầu cũng đã cảm thấy như vậy. Nhưng sau khi tìm hiểu kỹ về pháp lý và tiềm năng tăng giá, họ đã tìm ra rằng đây là mức giá hợp lý."
 - **Lỗi thường gặp**: Tranh luận với khách, phủ nhận cảm xúc
-- **Bài tập**: Role-play xử lý 5 tình huống từ chối phổ biến
+- **Bài tập**: Luyện tập tình huống xử lý 5 tình huống từ chối phổ biến
 
 ## Bước 5: Chốt cam kết
 - **Mục tiêu**: Tạo urgency nhẹ nhàng, đề xuất bước tiếp theo rõ ràng
@@ -492,26 +492,26 @@ Cuối tuần review: nguồn nào cho khách chất lượng nhất? Điều ch
 - **Lỗi thường gặp**: Không dám đề xuất, để khách tự quyết định
 - **Bài tập**: Luyện 5 cách chốt cam kết khác nhau
 
-## Bước 6: Follow-up
+## Bước 6: Theo dõi lại khách hàng
 - **Mục tiêu**: Liên hệ lại trong 24h, cung cấp thêm giá trị
 - **Hành động**: Gửi tóm tắt buổi tư vấn, tài liệu bổ sung, lịch hẹn tiếp theo
-- **Lỗi thường gặp**: Quên follow-up, follow-up quá muộn
-- **Bài tập**: Soạn 3 mẫu tin nhắn follow-up cho 3 tình huống
+- **Lỗi thường gặp**: Quên theo dõi lại khách hàng, theo dõi lại khách hàng quá muộn
+- **Bài tập**: Soạn 3 mẫu tin nhắn theo dõi lại khách hàng cho 3 tình huống
 
 ## Bước 7: Chăm sóc sau giao dịch
-- **Mục tiêu**: Duy trì quan hệ, xin referral, upsell
+- **Mục tiêu**: Duy trì quan hệ, xin giới thiệu khách hàng, upsell
 - **Hành động**: Chúc mừng, hỏi thăm định kỳ, chia sẻ thông tin hữu ích
-- **Lỗi thường gặp**: Bỏ quên khách sau khi chốt deal
+- **Lỗi thường gặp**: Bỏ quên khách sau khi chốt giao dịch
 - **Bài tập**: Lập kế hoạch chăm sóc 3 tháng sau giao dịch
 
 ## Tóm tắt
 
-Mỗi bước có: **Mục tiêu → Câu nói mẫu → Lỗi thường gặp → Bài tập role-play**`,
+Mỗi bước có: **Mục tiêu → Câu nói mẫu → Lỗi thường gặp → Bài tập luyện tập tình huống**`,
     quiz: [
-      { id: 1, question: "Tinh thần cốt lõi của quy trình bán hàng là gì?", options: ["Kỹ năng thuyết trình là quan trọng nhất", "Nhiệt huyết và sự chân thành quan trọng hơn kỹ năng thuyết trình", "Chốt deal nhanh nhất có thể", "Nói càng nhiều càng tốt"], correctAnswer: 1 },
+      { id: 1, question: "Tinh thần cốt lõi của quy trình bán hàng là gì?", options: ["Kỹ năng thuyết trình là quan trọng nhất", "Nhiệt huyết và sự chân thành quan trọng hơn kỹ năng thuyết trình", "Chốt giao dịch nhanh nhất có thể", "Nói càng nhiều càng tốt"], correctAnswer: 1 },
       { id: 2, question: "Công thức xử lý do dự là gì?", options: ["Hỏi – Trả lời – Chốt", "Cảm thấy – Đã cảm thấy – Đã tìm ra (Feel-Felt-Found)", "Nghe – Hiểu – Giải thích", "Đồng ý – Phản bác – Thuyết phục"], correctAnswer: 1 },
       { id: 3, question: "Bước 2 'Khám phá nhu cầu' yêu cầu gì?", options: ["Giới thiệu sản phẩm ngay", "Đặt câu hỏi mở, lắng nghe chủ động, ghi nhận", "Gửi brochure", "Nói về giá"], correctAnswer: 1 },
-      { id: 4, question: "Follow-up cần thực hiện trong bao lâu sau buổi tư vấn?", options: ["1 tuần", "3 ngày", "24 giờ", "1 tháng"], correctAnswer: 2 },
+      { id: 4, question: "Theo dõi lại khách hàng cần thực hiện trong bao lâu sau buổi tư vấn?", options: ["1 tuần", "3 ngày", "24 giờ", "1 tháng"], correctAnswer: 2 },
       { id: 5, question: "Lỗi thường gặp ở bước 'Chốt cam kết' là gì?", options: ["Ép khách mua ngay", "Không dám đề xuất, để khách tự quyết định", "Nói quá nhiều về giá", "Gọi lại quá nhiều lần"], correctAnswer: 1 },
     ]
   },
