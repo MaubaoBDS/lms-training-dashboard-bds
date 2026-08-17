@@ -7,12 +7,14 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Dashboard from "./pages/Dashboard";
 import ModulePage from "./pages/ModulePage";
+import ContentAdmin from "./pages/ContentAdmin";
 
 function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Dashboard} />
       <Route path={"/module/:id"} component={ModulePage} />
+      <Route path={"/admin/content"} component={ContentAdmin} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>

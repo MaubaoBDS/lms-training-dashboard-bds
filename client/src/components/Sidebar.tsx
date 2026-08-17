@@ -2,12 +2,12 @@
  * Design: Corporate Academy — Sidebar dark slate-900, 280px fixed
  * Accent: teal left-border on active, progress ring per module
  */
-import { allModules } from "@/data";
+import { useContentStore } from "@/hooks/useContentStore";
 import { cn } from "@/lib/utils";
 import {
   BarChart3, Bot, Building2, Database, LayoutDashboard,
   ListOrdered, Megaphone, MessageSquare, Phone, Rocket,
-  Route, Search, Swords, Target, UserCheck, Users
+  Route, Search, Swords, Target, UserCheck, Users, Settings2
 } from "lucide-react";
 import { Link, useLocation } from "wouter";
 
@@ -26,8 +26,9 @@ interface SidebarProps {
 
 export default function Sidebar({ completedModules, quizScores, isOpen, onClose }: SidebarProps) {
   const [location] = useLocation();
+  const { visibleModules } = useContentStore();
 
-  const totalModules = allModules.length;
+  const totalModules = visibleModules.length;
   const completedCount = completedModules.length;
   const progressPercent = Math.round((completedCount / totalModules) * 100);
 
@@ -74,7 +75,7 @@ export default function Sidebar({ completedModules, quizScores, isOpen, onClose 
 
         {/* Module list */}
         <nav className="flex-1 overflow-y-auto py-2 scrollbar-thin">
-          {allModules.map((mod) => {
+          {visibleModules.map((mod) => {
             const Icon = iconMap[mod.icon] || LayoutDashboard;
             const isActive = location === `/module/${mod.id}` || (location === "/" && mod.id === 1);
             const isCompleted = completedModules.includes(mod.id);
@@ -117,6 +118,24 @@ export default function Sidebar({ completedModules, quizScores, isOpen, onClose 
               </Link>
             );
           })}
+          <Link href="/admin/content" onClick={onClose}>
+            <div
+              className={cn(
+                "flex items-center gap-3 px-5 py-2.5 text-sm transition-all duration-150 relative group border-l-3",
+                location === "/admin/content"
+                  ? "bg-slate-800/80 text-white border-teal-400"
+                  : "hover:bg-slate-800/40 border-transparent"
+              )}
+            >
+              <div className={cn(
+                "w-7 h-7 rounded-md flex items-center justify-center shrink-0",
+                location === "/admin/content" ? "bg-teal-500/20 text-teal-400" : "bg-slate-700/50 text-slate-400"
+              )}>
+                <Settings2 className="w-4 h-4" />
+              </div>
+              <span className="truncate flex-1 leading-tight">Chỉnh sửa nội dung</span>
+            </div>
+          </Link>
         </nav>
 
         {/* Footer */}

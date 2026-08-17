@@ -5,16 +5,18 @@
 import Sidebar from "@/components/Sidebar";
 import { allModules } from "@/data";
 import { useProgress } from "@/hooks/useProgress";
+import { useContentStore } from "@/hooks/useContentStore";
 import { BookOpen, CheckCircle2, Clock, GraduationCap, Menu, Trophy } from "lucide-react";
 import { useState } from "react";
 import { Link } from "wouter";
 
 export default function Dashboard() {
   const { completedModules, quizScores } = useProgress();
+  const { visibleModules } = useContentStore();
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  const totalModules = allModules.length;
-  const completedCount = completedModules.length;
+  const totalModules = visibleModules.length;
+  const completedCount = completedModules.filter((id) => visibleModules.some((module) => module.id === id)).length;
   const avgScore = Object.values(quizScores).length > 0
     ? Math.round(Object.values(quizScores).reduce((a, b) => a + b, 0) / Object.values(quizScores).length)
     : 0;
@@ -77,7 +79,7 @@ export default function Dashboard() {
             <StatCard
               icon={<CheckCircle2 className="w-5 h-5" />}
               label="Hoàn thành"
-              value={`${Math.round((completedCount / totalModules) * 100)}%`}
+              value={`${totalModules > 0 ? Math.round((completedCount / totalModules) * 100) : 0}%`}
               color="text-blue-600"
               bg="bg-blue-50"
             />
@@ -118,7 +120,7 @@ export default function Dashboard() {
           <section>
             <h3 className="font-heading font-semibold text-slate-800 text-lg mb-4">Các module đào tạo</h3>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {allModules.slice(1).map((mod) => {
+              {visibleModules.filter((mod) => mod.id !== 1).map((mod) => {
                 const isCompleted = completedModules.includes(mod.id);
                 const score = quizScores[mod.id];
                 return (
