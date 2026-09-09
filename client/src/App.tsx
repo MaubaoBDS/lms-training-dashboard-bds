@@ -41,12 +41,12 @@ const facts = [
 ];
 
 const residences = [
-  { type: "Studio", count: "24 căn", area: "39.7 m²", image: "/astor/slide-35.jpg" },
-  { type: "2 phòng ngủ", count: "175 căn", area: "69.4 – 96.6 m²", image: "/astor/slide-36.jpg" },
-  { type: "3 phòng ngủ", count: "123 căn", area: "103 – 122 m²", image: "/astor/slide-37.jpg" },
-  { type: "Duplex", count: "20 căn", area: "134 – 214 m²", image: "/astor/slide-31.jpg" },
-  { type: "Dual Key – 5PN", count: "4 căn", area: "201 – 217 m²", image: "/astor/slide-34.jpg" },
-  { type: "Penthouse", count: "4 căn", area: "230 – 243.6 m²", image: "/astor/slide-32.jpg" },
+  { type: "Studio", count: "24 căn", area: "39.7 m²", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/RTocpukczbZwpkrm.jpg" },
+  { type: "2 phòng ngủ", count: "175 căn", area: "69.4 – 96.6 m²", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/JvCaRBFmUZLujGDH.jpg" },
+  { type: "3 phòng ngủ", count: "123 căn", area: "103 – 122 m²", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/NuOsuiBBHoCgNpgW.jpg" },
+  { type: "Duplex", count: "20 căn", area: "134 – 214 m²", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/gEpWNTfpluHYRIfQ.jpg" },
+  { type: "Dual Key – 5PN", count: "4 căn", area: "201 – 217 m²", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/PIkgGRVCuOTQCocI.jpg" },
+  { type: "Penthouse", count: "4 căn", area: "230 – 243.6 m²", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/dQgTyXtCviNQfySi.jpg" },
 ];
 
 const amenities = [
@@ -169,7 +169,7 @@ function App() {
               <p className="body-copy">Astor 1 là lời tuyên ngôn đầu tiên tại Ciputra: một không gian được định hình cho những chủ nhân đề cao phong thái, sự riêng tư và chất lượng bền vững theo thời gian.</p>
               <button className="text-link dark-link" onClick={() => scrollTo("residences", "story")}>Xem các dòng sản phẩm <ArrowRight size={16} /></button>
             </div>
-            <div className="intro-art"><img src="/astor/slide-30.jpg" alt="Cảnh quan nội khu Astor 1 minh họa" /><div className="art-caption">Cảnh quan nội khu · Hình ảnh mang tính chất minh họa</div></div>
+            <div className="intro-art"><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/SNDNXxlMwrvVTneN.jpg" alt="Cảnh quan nội khu Astor 1 minh họa" /><div className="art-caption">Cảnh quan nội khu · Hình ảnh mang tính chất minh họa</div></div>
           </div>
         </section>
 
@@ -181,7 +181,7 @@ function App() {
 
         <section className="overview-section section-pad">
           <div className="container overview-grid">
-            <div className="overview-image"><img src="/astor/slide-29.jpg" alt="Phối cảnh kiến trúc Art Deco Astor 1" /><span className="image-label">01 / Art Deco Icon</span></div>
+            <div className="overview-image"><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/ioBnLKBXOZMEhhle.jpg" alt="Phối cảnh kiến trúc Art Deco Astor 1" /><span className="image-label">01 / Art Deco Icon</span></div>
             <div className="overview-copy">
               <div className="section-index">02 <span>/</span> THE ADDRESS</div>
               <div className="eyebrow"><span className="eyebrow-line" /> Một địa chỉ khác biệt</div>
@@ -202,18 +202,18 @@ function App() {
         </section>
 
         <section className="amenities-section section-pad" id="amenities">
-          <div className="container amenities-grid"><div className="amenities-visual"><img src="/astor/slide-31.jpg" alt="Không gian xanh và tiện ích Astor 1" /><div className="visual-note">25 tiện ích nội khu<br /><span>Đặc quyền khép kín · Nhịp sống đương đại</span></div></div><div className="amenities-copy"><div className="section-index">04 <span>/</span> THE PRIVILEGE</div><div className="eyebrow light"><span className="eyebrow-line" /> Đặc quyền khép kín</div><h2>Nhịp sống<br /><em>được chăm chút.</em></h2><p className="light-copy">Từ bể bơi bốn mùa đến Health Hub, từ Clubhouse đến những khu vườn nghệ thuật — 25 tiện ích nội khu được sắp đặt để mỗi ngày ở Astor 1 có thêm một lý do để tận hưởng.</p><div className="amenity-list">{amenities.map(([number, title, desc]) => <div className="amenity-item" key={number}><span>{number}</span><div><strong>{title}</strong><p>{desc}</p></div></div>)}</div></div></div>
+          <div className="container amenities-grid"><div className="amenities-visual"><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/gEpWNTfpluHYRIfQ.jpg" alt="Không gian xanh và tiện ích Astor 1" /><div className="visual-note">25 tiện ích nội khu<br /><span>Đặc quyền khép kín · Nhịp sống đương đại</span></div></div><div className="amenities-copy"><div className="section-index">04 <span>/</span> THE PRIVILEGE</div><div className="eyebrow light"><span className="eyebrow-line" /> Đặc quyền khép kín</div><h2>Nhịp sống<br /><em>được chăm chút.</em></h2><p className="light-copy">Từ bể bơi bốn mùa đến Health Hub, từ Clubhouse đến những khu vườn nghệ thuật — 25 tiện ích nội khu được sắp đặt để mỗi ngày ở Astor 1 có thêm một lý do để tận hưởng.</p><div className="amenity-list">{amenities.map(([number, title, desc]) => <div className="amenity-item" key={number}><span>{number}</span><div><strong>{title}</strong><p>{desc}</p></div></div>)}</div></div></div>
         </section>
 
         <section className="standards-section section-pad">
-          <div className="container standards-grid"><div className="standards-copy"><div className="section-index">05 <span>/</span> THE STANDARD</div><div className="eyebrow"><span className="eyebrow-line" /> Tiêu chuẩn định hình phong thái sống</div><h2>Chất lượng<br /><em>nằm trong từng chi tiết.</em></h2><p className="lead-copy">Không chỉ là những gì nhìn thấy. Đó là chất lượng không khí, nguồn nước, an ninh, năng lượng và cách một không gian chăm sóc bạn mỗi ngày.</p><div className="standards-list">{standards.map((item) => <div key={item}><Check size={15} /><span>{item}</span></div>)}</div></div><div className="standards-image"><img src="/astor/slide-34.jpg" alt="Sảnh đón và không gian nội thất Astor 1 minh họa" /><div className="image-label">Grand Lobby · Hình ảnh minh họa</div></div></div>
+          <div className="container standards-grid"><div className="standards-copy"><div className="section-index">05 <span>/</span> THE STANDARD</div><div className="eyebrow"><span className="eyebrow-line" /> Tiêu chuẩn định hình phong thái sống</div><h2>Chất lượng<br /><em>nằm trong từng chi tiết.</em></h2><p className="lead-copy">Không chỉ là những gì nhìn thấy. Đó là chất lượng không khí, nguồn nước, an ninh, năng lượng và cách một không gian chăm sóc bạn mỗi ngày.</p><div className="standards-list">{standards.map((item) => <div key={item}><Check size={15} /><span>{item}</span></div>)}</div></div><div className="standards-image"><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/PIkgGRVCuOTQCocI.jpg" alt="Sảnh đón và không gian nội thất Astor 1 minh họa" /><div className="image-label">Grand Lobby · Hình ảnh minh họa</div></div></div>
         </section>
 
         <section className="location-section section-pad" id="location">
-          <div className="container location-grid"><div className="location-image"><img src="/astor/slide-33.jpg" alt="Bể bơi bốn mùa Astor 1 minh họa" /><div className="location-stamp">CIPUTRA<br /><small>HÀ NỘI</small></div></div><div className="location-copy"><div className="section-index">06 <span>/</span> THE ECOSYSTEM</div><div className="eyebrow"><span className="eyebrow-line" /> Tất cả trong vài phút di chuyển</div><h2>Một hệ sinh thái<br /><em>đã hiện hữu.</em></h2><p className="lead-copy">Astor 1 nằm trong lòng Ciputra — một cộng đồng quốc tế với hơn 100 tiện ích ngoại khu dành cho giáo dục, thể thao, sức khỏe, thương mại và những khoảng xanh lớn.</p><div className="ecosystem-grid">{ecosystem.map(([name, label]) => <div key={name}><strong>{name}</strong><span>{label}</span></div>)}</div><button className="text-link dark-link" onClick={() => scrollTo("contact", "location")}>Nhận tư vấn vị trí & giỏ hàng <ArrowRight size={16} /></button></div></div>
+          <div className="container location-grid"><div className="location-image"><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/KEHDUngLzfdhJryT.jpg" alt="Bể bơi bốn mùa Astor 1 minh họa" /><div className="location-stamp">CIPUTRA<br /><small>HÀ NỘI</small></div></div><div className="location-copy"><div className="section-index">06 <span>/</span> THE ECOSYSTEM</div><div className="eyebrow"><span className="eyebrow-line" /> Tất cả trong vài phút di chuyển</div><h2>Một hệ sinh thái<br /><em>đã hiện hữu.</em></h2><p className="lead-copy">Astor 1 nằm trong lòng Ciputra — một cộng đồng quốc tế với hơn 100 tiện ích ngoại khu dành cho giáo dục, thể thao, sức khỏe, thương mại và những khoảng xanh lớn.</p><div className="ecosystem-grid">{ecosystem.map(([name, label]) => <div key={name}><strong>{name}</strong><span>{label}</span></div>)}</div><button className="text-link dark-link" onClick={() => scrollTo("contact", "location")}>Nhận tư vấn vị trí & giỏ hàng <ArrowRight size={16} /></button></div></div>
         </section>
 
-        <section className="gallery-section"><div className="gallery-head container"><div><div className="section-index">07 <span>/</span> THE ATMOSPHERE</div><h2>Một phong thái<br /><em>được cảm nhận.</em></h2></div><p>Hình ảnh phối cảnh mang tính chất minh họa</p></div><div className="gallery-grid"><img src="/astor/slide-32.jpg" alt="Grand Lobby Astor 1" /><img src="/astor/slide-35.jpg" alt="Phòng khách Astor 1" /><img src="/astor/slide-36.jpg" alt="Phòng bếp Astor 1" /><img src="/astor/slide-37.jpg" alt="Phòng ngủ Astor 1" /></div></section>
+        <section className="gallery-section"><div className="gallery-head container"><div><div className="section-index">07 <span>/</span> THE ATMOSPHERE</div><h2>Một phong thái<br /><em>được cảm nhận.</em></h2></div><p>Hình ảnh phối cảnh mang tính chất minh họa</p></div><div className="gallery-grid"><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/dQgTyXtCviNQfySi.jpg" alt="Grand Lobby Astor 1" /><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/RTocpukczbZwpkrm.jpg" alt="Phòng khách Astor 1" /><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/JvCaRBFmUZLujGDH.jpg" alt="Phòng bếp Astor 1" /><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663676207479/NuOsuiBBHoCgNpgW.jpg" alt="Phòng ngủ Astor 1" /></div></section>
 
         <section className="timeline-section section-pad"><div className="container"><div className="section-index">08 <span>/</span> THE JOURNEY</div><div className="timeline-head"><div><div className="eyebrow"><span className="eyebrow-line" /> Hành trình kiến tạo</div><h2>Từ khởi đầu<br /><em>đến ngày trở về.</em></h2></div><p className="heading-aside">Các mốc thời gian đang được cập nhật theo kế hoạch triển khai dự án.</p></div><div className="timeline"><div className="timeline-step active"><span>01</span><strong>Teasing</strong><small>Tháng 8/2026</small></div><div className="timeline-step"><span>02</span><strong>Kick-off · Booking</strong><small>Tháng 9/2026 · dự kiến</small></div><div className="timeline-step"><span>03</span><strong>Booming · Khớp căn</strong><small>Tháng 10/2026 · dự kiến</small></div><div className="timeline-step"><span>04</span><strong>Mở bán chính thức</strong><small>Tháng 11/2026 · dự kiến</small></div></div></div></section>
 
